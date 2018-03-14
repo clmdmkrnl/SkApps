@@ -1,14 +1,16 @@
 package fr.clmdm.dao.model;
 
-public class DBProperties {
-	
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class DBProps {
 	
 	private String username;
 
 	private String password;
 	
 	private String url;
-
+	
+	@JsonProperty("driver-class-name")
 	private String driverClassName;
 
 	public String getUsername() {

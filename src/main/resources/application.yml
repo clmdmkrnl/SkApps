@@ -1,0 +1,12 @@
+logging:
+  level:
+    root: WARN        
+    org:
+      springframework:
+        security: INFO
+        web: INFO    
+      hibernate: INFO        
+      apache:
+        commons:
+          dbcp2: DEBUG
+    fr.clmdm: DEBUG 
