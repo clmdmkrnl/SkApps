@@ -1,0 +1,7 @@
+# DB Properties
+---
+db: 
+  username: "dbc:mysql://localhost/test"
+  password: dbuser
+  url: dbuser
+  driver-class-name: com.mysql.jdbc.Driver

@@ -3,7 +3,6 @@ package fr.clmdm.dao.imp;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.context.annotation.Bean;
 
 import fr.clmdm.dao.ResourceServiceI;
 import fr.clmdm.model.Resource;
